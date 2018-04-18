@@ -33,13 +33,10 @@ Payload:
 
 ```json
 {
-  "method": "hentDetaljer",
-  "query": {
-    "saksref": "your-reference",
-    "foedselsnr": "01013300239",
-    "etternavn": "FOS",
-    "fornavn": "IRENE"
-  }
+  "saksref": "your-reference",
+  "foedselsnr": "01013300239",
+  "etternavn": "FOS",
+  "fornavn": "IRENE"
 }
 ```
 
@@ -126,7 +123,7 @@ See valid test data on [infotorg.no](https://qa.infotorg.no/test/cms/site/0/page
 ```bash
 curl -k -X POST \
 -H "Authorization: <INSERT-TOKEN>" \
--d '{ { "saksref": "your-reference", "foedselsnr": "01013300239" }' \
+-d '{ "saksref": "your-reference", "foedselsnr": "01013300239" }' \
 https://dsf.mikrotjenester.win/dsf/hentDetaljer
 ```
 
