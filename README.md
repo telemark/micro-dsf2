@@ -23,13 +23,9 @@ DSF_PASSORD=passord
 
 ## API
 
-### POST ```/```
+### POST ```/dsf/<method>``` i.e ```/dsf/hentDetaljer```
 
 **Request**
-
-Path: `/dsf/hentDetaljer`
-
-Payload:
 
 ```json
 {
