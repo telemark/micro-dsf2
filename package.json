@@ -65,7 +65,7 @@
     "cors": "2.8.4",
     "express-jwt": "5.3.1",
     "finalhandler": "1.1.1",
-    "markdown-it": "8.4.1",
+    "markdown-it": "8.4.2",
     "node-dsf": "3.0.2",
     "micro": "9.3.2",
     "mongojs": "2.6.0",
