@@ -1,5 +1,5 @@
 # Setting the base to nodejs 8
-FROM mhart/alpine-node:8@sha256:6991164f63061cc4c3dea361982e64d7dc2d0057f36b123e78262c7729c5c4ec
+FROM mhart/alpine-node:8@sha256:1c5c109543baf06e246542183d34151882e4250e65d686fbeec0ec1159230524
 
 # Maintainer
 MAINTAINER Jonas Enge
