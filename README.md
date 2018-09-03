@@ -1,6 +1,5 @@
 [![Build Status](https://travis-ci.org/telemark/micro-dsf2.svg?branch=master)](https://travis-ci.org/telemark/micro-dsf2)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
-[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/micro-dsf2.svg)](https://greenkeeper.io/)
 
 # micro-dsf2
 
