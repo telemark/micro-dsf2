@@ -138,5 +138,3 @@ docker run -d \
 ## License
 
 [MIT](LICENSE)
-
-![Robohash image of micro-dsf2](https://robots.kebabstudios.party/micro-dsf2.png "Robohash image of micro-dsf2")

@@ -1,21 +1,11 @@
-# Setting the base to nodejs 8
-FROM mhart/alpine-node:8@sha256:5475447a963eef25b981caa50183682bcc05813038ed5d113f5ac3bfc51ff0f7
+FROM mhart/alpine-node:10 as base
+WORKDIR /usr/src
+COPY package.json package-lock.json /usr/src/
+RUN npm i --production
+COPY . .
 
-# Maintainer
-MAINTAINER Jonas Enge
-
-# Bundle app source
-COPY . /src
-
-# Change working directory
-WORKDIR "/src"
-
-# Install dependencies
-RUN npm install --production
-
-# Expose 3000
+FROM mhart/alpine-node:base-10
+WORKDIR /usr/src
+COPY --from=base /usr/src .
 EXPOSE 3000
-
-# Startup
-ENTRYPOINT npm start
-
+CMD ["node", "./node_modules/.bin/micro"]
