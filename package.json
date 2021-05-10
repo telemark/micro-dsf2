@@ -52,7 +52,7 @@
     "type": "npm"
   },
   "devDependencies": {
-    "ava": "2.1.0",
+    "ava": "2.4.0",
     "axios": "0.21.1",
     "coveralls": "3.0.14",
     "micro-dev": "3.0.0",
